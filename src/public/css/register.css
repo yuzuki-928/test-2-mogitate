@@ -1,0 +1,95 @@
+.header {
+    background-color: #fff;
+    font-family: Georgia;
+    font-size: larger;
+    color: #e1e500;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    /*text-align: center;*/
+}
+
+
+
+.form__group {
+    padding: 10px;
+}
+
+.form__group-title {
+    display: flex;
+    padding: 4px;
+}
+
+.form__label--required {
+    font-size: small;
+    padding: 2px;
+    color: #fff;
+    background-color: #ff0000;
+    margin-left: 2px;
+}
+
+.form__label--required--1 {
+    font-size: small;
+    padding: 2px;
+    color: #ff0000;
+    margin-left: 2px;
+}
+
+.name--text {
+    width: 50em;
+    border: 1px solid #999;
+}
+
+.price--text {
+    width: 50em;
+    border: 1px solid #999;
+}
+
+.season{
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #ffffff;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #999;
+    outline: none;
+    cursor: pointer;
+    margin-top:-5px;
+}
+
+.descride--text {
+    display: inline-block;
+    width: 50em;
+    padding: 6em;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    margin: 0.5em 0;
+    line-height: 1.5;
+    height: 6em;
+}
+
+.form__error {
+    height: 20px;
+    width: 600px;
+    color: #ff9494;
+}
+
+.form__button-return {
+    width: 8em;
+    height: 3em;
+    border: none;
+    margin: 1em;
+    background-color: #cfcfcf ;
+}
+
+.form__button-register {
+    width: 8em;
+    height: 3em;
+    border: none;
+    margin: 1em;
+    background-color: #e1e500;
+}
